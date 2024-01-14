@@ -7,7 +7,7 @@
   .transactionHistory th {
     color: #fff;
     border: 1px solid gray;
-    background-color: salmon;
+    background-color: rgb(114, 177, 250);
     width: calc(100% / 3);
     padding: 20px 10px;
     text-transform: uppercase;
@@ -18,10 +18,14 @@
   }
   
   .transactionHistory td {
-    border: 1px solid gray;
+    border: 1px solid #f4f5f6;
     padding: 15px 0;
   }
   
   .transactionHistory tr:nth-child(2n + 1) {
     background-color: #fff;
+  }
+  .transactionHistory tr:hover {
+    background: rgb(114, 177, 250);
+    color: #fff;
   }

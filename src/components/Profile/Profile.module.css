@@ -28,7 +28,7 @@
     margin-top: 30px;
     border-radius: 50%;
     padding-top: 5px;
-    border: 1px solid salmon;
+    border: 1px solid gray;
   }
   
   .name {
@@ -43,7 +43,6 @@
   
   .stats {
     display: flex;
-    background-color: antiquewhite;
   }
   
   .stats li {
